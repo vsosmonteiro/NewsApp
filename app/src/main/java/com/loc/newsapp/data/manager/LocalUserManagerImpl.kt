@@ -1,4 +1,4 @@
-package com.loc.data.manager
+package com.loc.newsapp.data.manager
 
 import android.content.Context
 import androidx.datastore.core.DataStore
@@ -6,9 +6,9 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.preferencesDataStore
-import com.loc.domain.manager.LocalUserManager
-import com.loc.util.Constants
-import com.loc.util.Constants.USER_SETTINGS
+import com.loc.newsapp.domain.manager.LocalUserManager
+import com.loc.newsapp.util.Constants
+import com.loc.newsapp.util.Constants.USER_SETTINGS
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
